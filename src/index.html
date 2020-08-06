@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>28 Blog</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img src="https://randomuser.me/api/portraits/women/24.jpg" alt="user" />
+      </div>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">My Story</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact Me</a></li>
+      </ul>
+    </nav>
+
+    <header>
+      <button id="toggle" class="toggle">
+        <i class="fa fa-bars fa-2x"></i>
+      </button>
+
+      <h1>
+        Welcome to my blog
+      </h1>
+
+      <p>
+        Here I share all my advantures and you have opperturnity to follow me!
+      </p>
+
+      <button class="cta-btn" id="open">Become a follower</button>
+    </header>
+
+    <div class="container">
+      <h2>What is this blog about?</h2>
+      <p>
+        It is about my life, my joy and my struggles. I will share all my advantures of traveling Asia and Europe.
+      </p>
+      <p>
+        Right now I'm in Turkey and currently I'm on my way to Ankara, then I plan to go to Athens, Rome and Paris. At the end of the year I will travel to India for sure.
+      </p>
+
+      <h2>Tell Me More</h2>
+
+      <p>
+        Me and my partner Haskijs come from Iran and this is our second time traveling the World. This time we are dedicated to film our journey and spread the joy of traveling and cross-cultural learning.
+      </p>
+
+      <h2>Benefits of being a follower</h2>
+      <ul>
+        <li>Lifetime Access</li>
+        <li>Get newsletters of my newest posts</li>
+        <li>Opportunity to send in questions for my QA videos</li>
+      </ul>
+
+      <p>
+        Some Content
+      </p>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal-container" id="modal">
+      <div class="modal">
+        <button class="close-btn" id="close">
+          <i class="fa fa-times"></i>
+        </button>
+        <div class="modal-header">
+          <h3>Become a follower</h3>
+        </div>
+        <div class="modal-content">
+          <p>Follow and get offers, news and more</p>
+          <form class="modal-form">
+            <div>
+              <label for="name">Name</label>
+              <input type="text" id="name" placeholder="Enter Name" class="form-input" />
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="Enter Email" class="form-input" />
+            </div>
+            <div>
+              <label for="password">Password</label>
+              <input type="password" id="password" placeholder="Enter Password" class="form-input" />
+            </div>
+            <div>
+              <label for="password2">Confirm Password</label>
+              <input type="password" id="password2" placeholder="Confirm Password" class="form-input" />
+            </div>
+            <input type="submit" value="Submit" class="submit-btn" />
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
